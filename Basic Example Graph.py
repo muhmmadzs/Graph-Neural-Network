@@ -107,5 +107,4 @@ with torch.no_grad():
     plt.figure()
     plt.plot(event.x[node_idx].numpy(), label='Original')
     plt.plot(x_hat[node_idx].numpy(), label='Reconstructed')
-    plt.legend()
     plt.show()
